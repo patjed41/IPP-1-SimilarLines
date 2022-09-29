@@ -6,6 +6,26 @@ My solution for the first project of the [Individual programming project (pol. I
 
 Write a program that finds groups of similar lines in text.
 
+## Example of use
+
+Directory `example` contains 3 files:
+- `example.in` - example of input
+- `example.out` - correct output on stdout of the program executed with input from file `example.in`
+- `example.err` - correct output on stderr of the program executed with input from file `example.in`
+
+To execute program with example input run
+```
+./similar_lines < example/example.in
+```
+in the main directory of a project.
+
+To use testing script `test.sh` with `example` directory run
+```
+./test.sh similar_lines example
+```
+More examples can be added to the `example` folder.
+
+
 # Full description in polish
 
 ## Podobne wiersze
